@@ -1,0 +1,97 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="theme-color" content="#173d72">
+<title>STAR DIGITAL STUDIOS & VIDEOS</title>
+<style>
+:root{--navy:#173d72;--blue:#2875c7;--bg:#f4f7fb;--ink:#182338}
+*{box-sizing:border-box}body{margin:0;font-family:Arial,sans-serif;background:var(--bg);color:var(--ink)}
+header{background:linear-gradient(135deg,#102c55,#2875c7);color:white;padding:25px 18px 22px;border-radius:0 0 25px 25px}
+.wrap{max-width:760px;margin:auto;padding:0 14px 35px}.brand{font-weight:800;letter-spacing:.5px;font-size:19px}.sub{font-size:12px;opacity:.9;margin-top:5px}.hero{font-size:25px;font-weight:800;margin:23px 0 7px}.muted{opacity:.85;font-size:13px;line-height:1.5}
+.search{margin-top:18px;background:white;border-radius:13px;padding:12px;color:#667}
+h2{font-size:18px;margin:25px 2px 12px}.grid{display:grid;grid-template-columns:repeat(2,1fr);gap:11px}
+.card{background:white;border:1px solid #e3eaf3;border-radius:15px;padding:14px;box-shadow:0 3px 12px #13294b0a}
+.emoji{font-size:25px}.card h3{font-size:15px;margin:8px 0 5px}.card p{font-size:12px;color:#68768b;line-height:1.4;margin:0}.price{font-weight:800;color:var(--blue);margin-top:9px;font-size:14px}
+form{background:white;border-radius:16px;padding:16px;border:1px solid #e3eaf3}
+label{display:block;font-size:13px;font-weight:700;margin:12px 0 6px}
+input,select,textarea{width:100%;padding:12px;border:1px solid #d8e0eb;border-radius:10px;font:inherit;font-size:14px;background:#fff}
+textarea{min-height:75px;resize:vertical}
+button,.btn{border:0;background:var(--navy);color:white;padding:13px 16px;border-radius:11px;font-weight:700;font-size:14px;display:block;width:100%;margin-top:15px;text-align:center;text-decoration:none}
+.note{font-size:12px;color:#65738a;line-height:1.5;margin-top:9px}
+.pill{display:inline-block;background:#e6f0ff;color:#174b8c;padding:6px 9px;border-radius:99px;font-size:11px;font-weight:700}
+footer{text-align:center;color:#718096;font-size:12px;padding:20px 5px}
+@media(min-width:600px){.grid{grid-template-columns:repeat(3,1fr)}header{margin-top:18px;border-radius:22px}}
+</style></head>
+<body>
+<header><div class="wrap">
+<div class="brand">STAR DIGITAL STUDIOS & VIDEOS</div>
+<div class="sub">CUSTOMISED GIFTS · A UNIT OF STAR GROUPS</div>
+<div class="hero">Capture Memories.<br>Create Something Special.</div>
+<div class="muted">Photography · Videography · Photo Frames · Customised Gifts · Albums · Photo Services</div>
+<div class="search">📍 Kai Kalathur, Perambalur Main Road · ☎ 7530030087</div>
+</div></header>
+<main class="wrap">
+<h2>Explore Our Services</h2>
+<div class="grid">
+<div class="card"><div class="emoji">📸</div><h3>Photography</h3><p>Wedding, reception, birthday and event photography.</p><div class="price">Get a quotation</div></div>
+<div class="card"><div class="emoji">🎥</div><h3>Videography</h3><p>Traditional video, cinematic coverage, drone and live streaming.</p><div class="price">Get a quotation</div></div>
+<div class="card"><div class="emoji">🎁</div><h3>Customised Gifts</h3><p>Mugs, magic mugs, keychains, T-shirts, pillows and more.</p><div class="price">From ₹50</div></div>
+<div class="card"><div class="emoji">🖼️</div><h3>Photo Frames</h3><p>Multiple sizes, photo enlargement and framed memories.</p><div class="price">From ₹220</div></div>
+<div class="card"><div class="emoji">💍</div><h3>Wedding Albums</h3><p>Album design, selection and printing.</p><div class="price">Get a quotation</div></div>
+<div class="card"><div class="emoji">🪪</div><h3>Photo Services</h3><p>Passport photos, restoration and photo printing.</p><div class="price">Get a quotation</div></div>
+</div>
+<h2>Popular Products</h2>
+<div class="grid">
+<div class="card"><h3>Normal Photo Mug</h3><div class="price">₹220</div></div>
+<div class="card"><h3>Magic Photo Mug</h3><div class="price">₹270</div></div>
+<div class="card"><h3>Photo Keychain</h3><div class="price">₹50</div></div>
+<div class="card"><h3>4×6 Photo Frame</h3><div class="price">₹220</div></div>
+<div class="card"><h3>8×6 Photo Frame</h3><div class="price">₹350</div></div>
+<div class="card"><h3>12×18 Photo Frame</h3><div class="price">₹1,250</div></div>
+<div class="card"><h3>16×24 Photo Frame</h3><div class="price">₹2,200</div></div>
+<div class="card"><h3>Other Sizes / Products</h3><div class="price">Ask for price</div></div>
+</div>
+<h2>Official Customer Order Booking</h2>
+<div class="card">
+<p>Book photography, videography, customised gifts, photo frames and other services through our official order form.</p>
+<a class="btn" href="https://docs.google.com/forms/d/e/1FAIpQLSdEhZsvuxdHGk90sFyQ6uyxibQN89sA6cmUJaNKGtzPIYRoWA/viewform" target="_blank" rel="noopener">Open Customer Order Form</a>
+<p class="note">After submitting the form, contact our office on WhatsApp if you need to share photos or design files.</p>
+</div>
+<h2>Place Your Order / Booking</h2>
+<form id="orderForm">
+<label>Your name *</label><input name="name" required placeholder="Enter your full name">
+<label>Mobile number *</label><input name="mobile" required inputmode="numeric" pattern="[0-9]{10}" placeholder="10-digit mobile number">
+<label>Order category *</label><select name="category" required><option value="">Select category</option><option>Photography</option><option>Videography</option><option>Customised Gifts</option><option>Photo Frames</option><option>Wedding Albums</option><option>Photo Services</option><option>Other</option></select>
+<label>Product / service *</label><input name="item" required placeholder="Example: Magic Mug / Wedding Photography">
+<label>Size / package / quantity</label><input name="details" placeholder="Example: 12×18, 2 pieces">
+<label>Event date (if applicable)</label><input name="eventDate" type="date">
+<label>Event venue / delivery address</label><textarea name="address" placeholder="Enter venue or delivery address"></textarea>
+<label>Custom name, text or design instructions</label><textarea name="custom" placeholder="Describe your customization"></textarea>
+<label>Photo upload</label><p class="note">This free website form cannot securely upload files directly. After sending your order, attach your photo in the WhatsApp chat.</p>
+<label>Preferred delivery</label><select name="delivery"><option>Shop Pickup</option><option>Local Delivery – subject to confirmation</option><option>Courier – subject to confirmation</option></select>
+<label>Additional notes</label><textarea name="notes" placeholder="Any special request"></textarea>
+<button type="submit">Send Order on WhatsApp</button>
+<p class="note">Your WhatsApp app will open with the order details filled in. Please tap Send to submit. Order is not confirmed until our staff contacts you and confirms the price, payment and availability.</p>
+</form>
+<a class="btn" href="https://wa.me/917530030087" target="_blank" rel="noopener">Chat with STAR on WhatsApp</a>
+<a class="btn" style="background:#2875c7" href="tel:7530030087">Call Office: 7530030087</a>
+<footer>STAR DIGITAL STUDIOS & VIDEOS · A UNIT OF STAR GROUPS<br>Prices may change. Quotation-based services are confirmed by staff.</footer>
+</main>
+<script>
+document.getElementById('orderForm').addEventListener('submit',function(e){
+ e.preventDefault();const f=new FormData(this);
+ const lines=[
+ 'STAR DIGITAL STUDIOS & VIDEOS – CUSTOMER ORDER',
+ 'Customer: '+f.get('name'),'Mobile: '+f.get('mobile'),
+ 'Category: '+f.get('category'),'Product / Service: '+f.get('item'),
+ 'Size / Package / Quantity: '+(f.get('details')||'-'),
+ 'Event Date: '+(f.get('eventDate')||'-'),
+ 'Venue / Address: '+(f.get('address')||'-'),
+ 'Customization: '+(f.get('custom')||'-'),
+ 'Delivery: '+f.get('delivery'),'Notes: '+(f.get('notes')||'-'),
+ 'Please confirm price, availability and payment details.'
+ ];
+ window.open('https://wa.me/917530030087?text='+encodeURIComponent(lines.join('\n')),'_blank');
+});
+</script></body></html>
